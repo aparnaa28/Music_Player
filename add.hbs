@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container mt-5 pt-5">
+    <div class="row">
+      <div class="col-12">
+    <form action="/add" method="POST">
+  <div class="form-group">
+    <label >Track Name</label>
+    <input type="text" name="title" class="form-control" id="title" placeholder="Enter track name">
+    <small  class="form-text text-muted">This is the name of the song</small>
+  </div>
+
+  <div class="form-group">
+    <label>Singer</label>
+    <input type="text" name="singer" class="form-control" id="singer" placeholder="Enter singer">
+    <small  class="form-text text-muted">This is the name of the singer</small>
+  </div>
+
+   <div class="form-group">
+    <label>image</label>
+    <input type="text" name="image"class="form-control" id="image" placeholder="Enter image source">
+    <small  class="form-text text-muted">This will be the image of the track</small>
+  </div>
+
+   <div class="form-group">
+    <label>audio</label>
+    <input type="text" name="file" class="form-control" id="file" placeholder="Enter audio file">
+    <small  class="form-text text-muted">This is the audio file of the track</small>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</div>
+</div>
+
+</body>
+</html>
